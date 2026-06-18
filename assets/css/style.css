@@ -158,6 +158,7 @@ main a { color: var(--brown2); }
 /* ---------- Bio page ---------- */
 .bio { max-width: 720px; margin: 0 auto; }
 .bio h1 { text-align: center; color: var(--brown); font-size: 2rem; margin: 0.2em 0 0.1em; }
+.bio .bio-photo { display: block; width: 200px; max-width: 62%; height: auto; margin: 0.6em auto 1.4em; border-radius: 8px; border: 3px solid var(--cream); box-shadow: 0 4px 16px rgba(0,0,0,0.18); }
 .bio h1::after { content: ""; display: block; width: 22%; height: 2px; background: var(--gold); margin: 0.55em auto 0.9em; }
 .bio h2 { color: var(--brown); font-size: 1.3rem; border-bottom: 1px solid #d8c5a8; padding-bottom: 0.2em; margin: 1.6em 0 0.5em; }
 .bio p { text-align: justify; margin: 0.6em 0; }
